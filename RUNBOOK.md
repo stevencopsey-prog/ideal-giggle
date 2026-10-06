@@ -29,7 +29,8 @@ Sending stays on Power Automate (Ingo's preference). Do not send email from Clau
 
 ## 3. Cowork tasks to do
 
-### 3.1 One-off: tag the 205 contacts (do first)
+### 3.1 One-off: tag the 205 contacts (nice to have, no longer blocking)
+Segment membership note (Steven, 6 Oct 2026): list 241 is dynamic. Most members are in it because the company they are associated with is in the Medical - Endoscopy application area. A contact whose own `applicationfocus` is Medical - Endoscopy is also included, which is how newly created refill contacts enter the list. The refill routine counts list membership, so this tagging is no longer required for the refill to work, but it keeps the data clean.
 Set `applicationfocus = "Medical - Endoscopy"` on every member of list 241 where it is currently empty. Only fill empty values. Do not overwrite the 4 that are tagged. Report counts afterwards (before and after). Reason: the refill routine finds lost contacts by this value.
 
 ### 3.2 Weekly: build the send lists (Monday, after the refill)
