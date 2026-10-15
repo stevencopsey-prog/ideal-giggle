@@ -136,3 +136,8 @@ Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026)
 - Ambu's domain accepts all emails, so its 3 addresses are unverifiable and may bounce. Company countries for PENTAX Medical and Evident Scientific are best guesses.
 - Aquabyte (6620524710) and its 3 contacts moved to Medical - Vet (lead status left blank).
 - Hunter credits: about 35.5 of 50 used before this push finished; about 14 remain until 15 Nov.
+
+### 10.2 Monthly Hunter top-up routine
+- Routine "Hunter monthly top-up", trigger `trig_01G7NSRKa2TqeYGJ1a4rUX6p`, 08:47 Pacific on the 16th of each month (the day after Hunter resets). October is skipped on purpose because only about 14 credits remain; first run is 16 Nov 2026.
+- Supervised: it picks the campaign furthest below target, pre-screens domains with free Email-Count, spends at most 40 of 50 credits, shows a shortlist and creates nothing in HubSpot until Steven approves in that session.
+- Open item: the Hunter, HubSpot and Apollo connectors must be attached to this routine in the claude.ai routines UI (the API cannot attach them). Until then a run will stop and say which tool is missing.
