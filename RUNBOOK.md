@@ -128,3 +128,11 @@ Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026)
 - Credits used: 19 of 50 (31 left until the reset). Coverage of engineering roles was thin; most hits are product or executive roles.
 - Company countries for BioChek, Smartbell and Burgess Diagnostics were set from best guess and should be checked.
 - Revisit Hunter in the weekly routine only if Vet stays short after the first two refill runs.
+
+### 10.1 Hunter second push: Endoscopy and Biotech (15 Oct 2026)
+- Chosen because they had the biggest gaps (Biotech about 136 of 200, Endoscopy about 102 of 150 eligible).
+- Free plan caps Domain-Search at 10 emails per call. Department "it" plus seniority "executive" is the best filter for finding engineering heads; the "design" and "procurement" departments return mostly junior or irrelevant roles.
+- Created 10 companies and 23 contacts (New - MQL, note "Added by Hunter push 2026-10-15 via Hunter for <campaign>"): Endoscopy 6 (Ambu, PENTAX Medical), Biotech 17 (Pacific Biosciences, Hamilton Company, Standard BioTools, Opentrons, Bionano Genomics, Singular Genomics, Nautilus Biotechnology, Evident Scientific).
+- Ambu's domain accepts all emails, so its 3 addresses are unverifiable and may bounce. Company countries for PENTAX Medical and Evident Scientific are best guesses.
+- Aquabyte (6620524710) and its 3 contacts moved to Medical - Vet (lead status left blank).
+- Hunter credits: about 35.5 of 50 used before this push finished; about 14 remain until 15 Nov.
