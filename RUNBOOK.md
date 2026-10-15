@@ -119,3 +119,12 @@ Note: Joely Caisse left Sunex in October 2026; her open threads were moved to th
 8. Steven: check what Apollo's `restricted` flag means for emailing those contacts.
 9. Bob Ponciroli (record 565167931066) still needs deleting in the HubSpot UI (we never delete from here).
 10. Optional: make the replies routine skip mail from contacts who are already Connected customers.
+
+## 10. Hunter one-off Vet push (15 Oct 2026)
+
+Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026) was used once, not added to the weekly routine.
+- Method: free Email-Count pre-screen of ~50 vet/livestock/aquaculture domains, then department-filtered Domain-Search (1 credit per 10 emails) on the best 24 domains. All 5 unverified addresses were checked with Email-Verifier (all valid).
+- Result: 16 companies and 29 contacts created (New - MQL, applicationfocus and market Medical - Vet, note "Added by Vet scrub 2026-10-15 via Hunter for Vet"): Clarius, BioChek, Fancom, CowMed, Isomedic, Bionote, Smartbell, Burgess Diagnostics, Lely, Afimilk, Innovasea, Eruvaka, BCF Technology, MAI Animal Health, DELOS Aqua, Halter.
+- Credits used: 19 of 50 (31 left until the reset). Coverage of engineering roles was thin; most hits are product or executive roles.
+- Company countries for BioChek, Smartbell and Burgess Diagnostics were set from best guess and should be checked.
+- Revisit Hunter in the weekly routine only if Vet stays short after the first two refill runs.
