@@ -145,4 +145,5 @@ Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026)
 ### 10.3 Surgical list: customer contacts stay in the campaign (19 Oct 2026)
 - Rule agreed with Steven: a contact becomes Connected only for a live conversation or a customer/technical project with activity in the last 6 months (reply, order, deal or engagement). Hard-bounced contacts are Unqualified / "Hard bounce".
 - **Noah Medical (noahmed.com) stays in the Surgical campaign as New - MQL on purpose**, including John Shen and Akihiro Takagi. Noah is a major customer (module production, about $10.8M revenue on the company record, project paused, last contact Apr 2026). Steven wants the campaign to act as an introduction to him and a reminder, so no "Existing customer" exclusion.
-- Other 6-12 month companies (X-Nav, Novanta, PulseMedica) are being reviewed one by one.
+- **X-Nav Technologies (x-navtech.com) also stays in as New - MQL on purpose** (repeat lens buyer, last PO Feb 2026; Steven's decision 19 Oct).
+- Other 6-12 month companies (Novanta, PulseMedica) are being reviewed one by one.
