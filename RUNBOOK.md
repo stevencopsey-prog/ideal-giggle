@@ -55,13 +55,13 @@ A person must be on only ONE list and get only the most relevant email. People a
 ### 4.1 Weekly: build the send lists (Monday, after the refill)
 - Sources: lists 241, 243, 245, 247, 249 (section 2). The region comes from the contact's `country` field.
 - Apply the lead-status selection (section 3, item 5) and every exclusion below.
-- Output: three files per campaign in OneDrive `/Campaign`, following the Endoscopy pattern (`NA - Endoscopy.xlsx`, `EMEA - Endoscopy.xlsx`, `ASIA - Endoscopy.xlsx`; confirm the naming for the other four with Steven). Each has a table `SendList` on sheet `SendList` with columns exactly: `RecordID, FirstName, Email, Company, Region, Sent, SentAt, Greeting`.
+- Output: **one file per campaign** (not NA / EMEA / ASIA). Confirm the naming with Steven (suggested `Surgical.xlsx`, `Endoscopy.xlsx` etc. in OneDrive `/Campaign`). Each has a table `SendList` on sheet `SendList` with columns exactly: `RecordID, FirstName, Email, Company, Region, Sent, SentAt, Greeting`. `Region` is still filled (NA / EMEA / ASIA, from the contact's `country`) so the single list can be sorted or split later, but it no longer decides which file a row goes in.
 - `Sent` is blank for rows to send, `yes` for rows that must not be emailed (held rows). Power Automate sends rows where `Sent` is not `yes`, then writes `Sent = yes` and `SentAt`.
 - `Greeting` = `Hi {FirstName},`, or `Good morning,` when there is no usable first name.
 - Exclude: `hs_email_optout = true`; any hard-bounce reason; **any `exclude_reason` value**; anyone with `military_status` set; role/generic mailboxes (info@, sales@, purchasing@ etc.) only when a personal address exists for the same company, otherwise keep them; clearly wrong people.
 - Held domains (list with `Sent = yes` so they stay visible but receive nothing): `bsci.com`, `karlstorz.com`, `giview.com` (crowded companies).
 - A contact must appear in only one campaign's files (section 2.1). If one is found in two lists, send it under the campaign of its own `applicationfocus` and tell Steven.
-- Region assignment: where a country is missing, use the company HQ and record the confidence; lower-confidence placements need a review (section 9).
+- Region assignment: filled for every row from `country`; where a country is missing, use the company HQ and record the confidence; lower-confidence placements need a review (section 9). With one list, a blank country no longer blocks a contact from being sent.
 - Known file issues: writing large `.xlsx` files into OneDrive from a cloud session was unreliable (423 locked when open in Excel; 412 when the file changed). Write locally then place the file, and make sure the files are closed before the flows run.
 - Power Automate flows: the Send email body should use the `Greeting` column. Top Count is set per flow. Steven has not confirmed these edits are complete.
 
