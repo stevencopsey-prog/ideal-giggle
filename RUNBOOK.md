@@ -141,3 +141,8 @@ Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026)
 - Routine "Hunter monthly top-up", trigger `trig_01G7NSRKa2TqeYGJ1a4rUX6p`, 08:47 Pacific on the 16th of each month (the day after Hunter resets). October is skipped on purpose because only about 14 credits remain; first run is 16 Nov 2026.
 - Supervised: it picks the campaign furthest below target, pre-screens domains with free Email-Count, spends at most 40 of 50 credits, shows a shortlist and creates nothing in HubSpot until Steven approves in that session.
 - Open item: the Hunter, HubSpot and Apollo connectors must be attached to this routine in the claude.ai routines UI (the API cannot attach them). Until then a run will stop and say which tool is missing.
+
+### 10.3 Surgical list: customer contacts stay in the campaign (19 Oct 2026)
+- Rule agreed with Steven: a contact becomes Connected only for a live conversation or a customer/technical project with activity in the last 6 months (reply, order, deal or engagement). Hard-bounced contacts are Unqualified / "Hard bounce".
+- **Noah Medical (noahmed.com) stays in the Surgical campaign as New - MQL on purpose**, including John Shen and Akihiro Takagi. Noah is a major customer (module production, about $10.8M revenue on the company record, project paused, last contact Apr 2026). Steven wants the campaign to act as an introduction to him and a reminder, so no "Existing customer" exclusion.
+- Other 6-12 month companies (X-Nav, Novanta, PulseMedica) are being reviewed one by one.
