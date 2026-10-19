@@ -147,4 +147,4 @@ Hunter (Free plan, 50 credits/50 searches/100 verifications, resets 15 Nov 2026)
 - **Noah Medical (noahmed.com) stays in the Surgical campaign as New - MQL on purpose**, including John Shen and Akihiro Takagi. Noah is a major customer (module production, about $10.8M revenue on the company record, project paused, last contact Apr 2026). Steven wants the campaign to act as an introduction to him and a reminder, so no "Existing customer" exclusion.
 - **X-Nav Technologies (x-navtech.com) also stays in as New - MQL on purpose** (repeat lens buyer, last PO Feb 2026; Steven's decision 19 Oct).
 - **Novanta (novanta.com) also stays in as New - MQL on purpose** (web-store RFQs and orders, a new contact-request ticket on 23 Sep 2026; Steven's decision 19 Oct).
-- Other 6-12 month company still under review: PulseMedica.
+- **PulseMedica (John Tamkin) also stays in** (prospect, retinal-surgery imaging; asked about DSL345 in Mar 2026 and promised a spec; Steven's decision 19 Oct). Review of the four 6-12 month companies is finished: nobody was excluded.
